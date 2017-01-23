@@ -173,7 +173,7 @@ func main() {
 	r.DELETE("/pedido/:id", DeletePedido)
 
 	//r.Run("0.0.0.0:4000")
-	r.Run(":"+os.Getenv("PORT")
+	r.Run(":" + os.Getenv("PORT"))
 }
 
 func DeleteProduto(c *gin.Context) {
