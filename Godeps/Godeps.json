@@ -1,5 +1,5 @@
 {
-	"ImportPath": "OU",
+	"ImportPath": "DO",
 	"GoVersion": "go1.7",
 	"GodepVersion": "v78",
 	"Deps": [
